@@ -1,14 +1,11 @@
 body{
-    /* font-family: Arial, Helvetica, sans-serif; */
     margin: 20px;
-
-    font-family: 'Segoe UI', sans-serif;
+    /* font-family: 'Segoe UI', sans-serif; */
     background-image: url('https://www.transparenttextures.com/patterns/cubes.png'); 
     background-color: #fdfdfd;
 
-    /* dark mode */
-    /* background-color: #121212; */
-    /* color: #f0f0f0; */
+    font-family: 'Poppins', sans-serif;
+    color: #00796b;
 }
 
 header{
@@ -21,6 +18,8 @@ form{
     border-radius: 8px;
     margin-bottom: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.9); 
 }
 
 form input, form select{
@@ -39,6 +38,8 @@ table{
     overflow: hidden;
     border-radius: 8px;
     text-align: center;
+    backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.9); 
 }
 
 th, td{
